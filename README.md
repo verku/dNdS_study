@@ -8,7 +8,7 @@ Custom python scripts used in bioinformatics analysis for Mugal et al.
 - Requires python3 and biopython 1.72. Not optimized for large alignments.
 
 # fasta_N_nucleotide_content.py
-- Counts the numbers of the different nucleotides incl. Ns, as well as the proportion of Ns, of polymorphic sites coded as IUPAC codes and the GC content (only taking Gs and Cs into account). 
+- Counts the numbers of the different nucleotides incl. Ns, as well as the proportion of Ns, of polymorphic sites coded as IUPAC codes and the GC content (only taking Gs and Cs into account) in a FASTA file.
 - Requires python2.7 and  Biopython 1.43 onwards.
 
 # countHeterozygousGenotypes.py
@@ -21,4 +21,5 @@ Custom python scripts used in bioinformatics analysis for Mugal et al.
 - Not only REF and ALT, but also allele frequency (AF) and genotype information (individual GT) are considered. 
 - Site pairs with positions not directly adjacent to each other will be ignored. 
 - The output is printed to a bed file.
+- Written for VCF files generated with GATK 3.4.0.
 - Requires python2.7.
