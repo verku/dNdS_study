@@ -1,5 +1,6 @@
 # dNdS_study
-Custom python scripts used in bioinformatics analysis for Mugal et al.
+Custom python scripts used in bioinformatics analysis for Mugal et al., Molecular Biology and Evolution, Volume 37, Issue 1, January 2020, Pages 260–279, https://doi.org/10.1093/molbev/msz203
+
 
 # bootstrap_codon_alignment.py
 - Creates one bootstrap replicate of a multiple alignment of protein-coding genes in FASTA format.
